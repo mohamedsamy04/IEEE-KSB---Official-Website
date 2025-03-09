@@ -33,7 +33,7 @@ export default function MembersForm() {
   }
 
   return (
-    <main className="min-h-screen bg-[#F8F9FA]">
+    <main className="min-h-screen bg-[#ececec]">
       <Nav />
 
       <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-8 md:py-12">

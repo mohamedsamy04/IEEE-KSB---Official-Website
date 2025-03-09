@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Forms() {
   return (
-    <main className="min-h-screen bg-[#F8F9FA]">
+    <main className="min-h-screen bg-[#ececec]">
       <Nav />
 
       <div className="max-w-[1320px] mx-auto px-4 md:px-10">

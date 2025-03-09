@@ -4,9 +4,9 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F8F9FA]">
+    <main className="min-h-screen bg-[#ececec]">
       <div className="max-w-[1320px] mx-auto">
-        <div className="bg-white rounded-[30px] m-[30px] style={{ maxHeight: 'calc(100vh - 60px)' }} ">
+        <div className="bg-[#FFF] rounded-[30px] m-[30px] style={{ maxHeight: 'calc(100vh - 60px)' }} ">
           <Nav />
 
           {/* Hero Section */}

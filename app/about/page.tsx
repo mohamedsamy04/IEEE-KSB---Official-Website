@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-[#F8F9FA]">
+    <main className="min-h-screen bg-[#ececec]">
       <Nav />
 
       {/* One Family Section */}

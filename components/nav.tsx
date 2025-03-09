@@ -29,13 +29,7 @@ export function Nav() {
         )}
       >
         <Link href="/" className="relative w-[107px] h-[38px]">
-          <Image
-            src="/Logo.svg"
-            alt="IEEE Logo"
-            fill
-            className="object-contain"
-            priority
-          />
+          <Image src="/Logo.svg" alt="IEEE Logo" fill className="object-contain" priority />
         </Link>
 
         {/* Desktop Navigation */}
@@ -45,7 +39,7 @@ export function Nav() {
               key={item.name}
               href={item.href}
               className={cn(
-                "px-4 py-2 text-sm font-medium transition-colors rounded-lg text-[#03468F]",
+                "px-6 py-2 text-sm font-medium transition-colors rounded-lg text-[#03468F]",
                 pathname === item.href ? "bg-[#E8EDF5]" : "hover:bg-[#E8EDF5]",
               )}
             >
@@ -69,7 +63,7 @@ export function Nav() {
                   key={item.name}
                   href={item.href}
                   className={cn(
-                    "px-4 py-3 text-base font-medium transition-colors rounded-lg text-[#03468F]",
+                    "px-6 py-3 text-base font-medium transition-colors rounded-lg text-[#03468F]",
                     pathname === item.href ? "bg-[#E8EDF5]" : "hover:bg-[#E8EDF5]",
                   )}
                 >

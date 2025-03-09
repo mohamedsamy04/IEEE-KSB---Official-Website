@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer"
 
 export default function ComingSoon() {
   return (
-    <main className="min-h-screen bg-[#F8F9FA] flex flex-col justify-center items-center">
+    <main className="min-h-screen bg-[#ececec] flex flex-col justify-center items-center">
       <Nav />
 
       {/* Coming Soon Section */}
